@@ -2,6 +2,8 @@
 //
 
 #include <iostream>
+
+//what do i do -jason
 void loop(int counter) {
     for (int i = 0; i < counter; i++)
     {
