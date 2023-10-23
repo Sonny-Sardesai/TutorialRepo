@@ -1,0 +1,5 @@
+﻿  VersionControlTutorial.cpp
+C:\Git_Repo\TutorialRepo\VersionControlTutorial\VersionControlTutorial.cpp(16,17): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Git_Repo\TutorialRepo\VersionControlTutorial\VersionControlTutorial.cpp(16,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Git_Repo\TutorialRepo\VersionControlTutorial\VersionControlTutorial.cpp(16,17): message : the missing variadic argument 2 is required by format string '%s'
+C:\Git_Repo\TutorialRepo\VersionControlTutorial\VersionControlTutorial.cpp(16,17): message : this argument is used as a buffer size

@@ -5,7 +5,16 @@
 
 int main()
 {
+    char Question[] = "What is your name?";
+    char Name [20];
     std::cout << "Hello World!!\n";
+
+
+
+    printf("Hi Yall it'syour boi, Boi uber\n");
+        printf("%s", &Question);
+        scanf_s("%s", &Name);
+        printf("Ciao %s\n", &Name);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
