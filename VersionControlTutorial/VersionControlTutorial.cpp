@@ -3,30 +3,18 @@
 
 #include <iostream>
 
+//what do i do -jason
 void loop(int counter) {
-    for (int i = 0; i < counter; i++) {
-        std::cout << "For loop is working for the " << i + 1 << " time!\n";
+    for (int i = 0; i < counter; i++)
+    {
+        std::cout << "For loop is working for the "<< i+1 << " time!\n";
     }
 }
-
 int main()
 {
-    std::cout << "Hello World!!\n";
-    int number = 0;
-    printf("Enter a number:");
-    if (number < 50) {
-        printf("Your number is below 50. \n");
-    }
-    else if (number > 50) {
-        printf("Your number is above 50. \n");
-    }
-    else {
-        printf("Your number is exactly 50. \n");
-    }
     int counter;
     std::cin >> counter;
     loop(counter);
-    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
