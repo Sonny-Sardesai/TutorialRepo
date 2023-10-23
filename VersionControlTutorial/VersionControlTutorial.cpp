@@ -7,7 +7,7 @@
 void loop(int counter) {
     for (int i = 0; i < counter; i++)
     {
-        std::cout << "For loop is working for the "<< i+1 << " time!\n";
+        std::cout << "hehe I not think "<< i+1 << " time!\n";
     }
 }
 int main()
