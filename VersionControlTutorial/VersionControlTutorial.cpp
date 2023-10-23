@@ -2,9 +2,15 @@
 //
 
 #include <iostream>
-
+void loop(int counter) {
+    for (int i = 0; i < counter; i++)
+    {
+        std::cout << "For loop is working for the "<< i+1 << " time!\n";
+    }
+}
 int main()
 {
+<<<<<<< HEAD
     char Question[] = "What is your name?";
     char Name [20];
     std::cout << "Hello World!!\n";
@@ -15,6 +21,11 @@ int main()
         printf("%s", &Question);
         scanf_s("%s", &Name);
         printf("Ciao %s\n", &Name);
+=======
+    int counter;
+    std::cin >> counter;
+    loop(counter);
+>>>>>>> 34bf8ed1d0267d7c7a57fac97818bede9340f747
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
