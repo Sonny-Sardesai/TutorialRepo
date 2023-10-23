@@ -10,6 +10,7 @@
 # Precompiled Headers
 *.gch
 *.pch
+*.ipch
 
 # Compiled Dynamic libraries
 *.so
@@ -30,3 +31,12 @@
 *.exe
 *.out
 *.app
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+*.opendb
+
+# Visual Studio Extensions files
+*.vsidx
