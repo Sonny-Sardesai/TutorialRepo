@@ -1,23 +1,11 @@
-// VersionControlTutorial.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// TutorialReposit.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
 
 int main()
 {
-    std::cout << "Hello World!!\n";
-    int number = 0;
-    printf("Enter a number:");
-    if (number < 50) {
-        printf("Your number is below 50. \n");
-    }
-    else if (number > 50) {
-        printf("Your number is above 50. \n");
-    }
-    else {
-        printf("Your number is exactly 50. \n");
-    }
-    return 0;
+    std::cout << "Hello World!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
