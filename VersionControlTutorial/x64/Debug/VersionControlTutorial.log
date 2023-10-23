@@ -1,0 +1,11 @@
+﻿  VersionControlTutorial.cpp
+C:\Git_Repo\TutorialRepo\VersionControlTutorial\VersionControlTutorial.cpp(13,1): error C2059: syntax error: '<<'
+C:\Git_Repo\TutorialRepo\VersionControlTutorial\VersionControlTutorial.cpp(21,23): error C2065: 'Question': undeclared identifier
+C:\Git_Repo\TutorialRepo\VersionControlTutorial\VersionControlTutorial.cpp(22,17): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Git_Repo\TutorialRepo\VersionControlTutorial\VersionControlTutorial.cpp(22,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Git_Repo\TutorialRepo\VersionControlTutorial\VersionControlTutorial.cpp(22,17): message : the missing variadic argument 2 is required by format string '%s'
+C:\Git_Repo\TutorialRepo\VersionControlTutorial\VersionControlTutorial.cpp(22,17): message : this argument is used as a buffer size
+C:\Git_Repo\TutorialRepo\VersionControlTutorial\VersionControlTutorial.cpp(24,1): error C2059: syntax error: '=='
+C:\Git_Repo\TutorialRepo\VersionControlTutorial\VersionControlTutorial.cpp(26,17): error C2065: 'counter': undeclared identifier
+C:\Git_Repo\TutorialRepo\VersionControlTutorial\VersionControlTutorial.cpp(27,10): error C2065: 'counter': undeclared identifier
+C:\Git_Repo\TutorialRepo\VersionControlTutorial\VersionControlTutorial.cpp(28,1): error C2059: syntax error: '>>'
