@@ -2,13 +2,17 @@
 //
 
 #include <iostream>
-
+void loop(int counter) {
+    for (int i = 0; i < counter; i++)
+    {
+        std::cout << "For loop is working for the "<< i+1 << " time!\n";
+    }
+}
 int main()
 {
-    for (int i = 0; i <= 10; i++)
-    {
-        std::cout << "For loop is working!!\n";
-    }
+    int counter;
+    std::cin >> counter;
+    loop(counter);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
